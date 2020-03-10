@@ -18,8 +18,8 @@
     background-color: #fff;
     padding: 7px;
     border: 1px solid #ddd;
-    height: 30px;
-    width: 97%;
+    height: 50px;
+    width: 100%;
 }
 
 #buttons {
@@ -44,9 +44,10 @@
     height: 20px;
     padding: 20px;
     background-color: #fff;
-    text-align: center;
+    text-align: center
 }
 
-.clear {
-    width: 77.5%;
+.clear{
+    width: 77%;
 }
+
