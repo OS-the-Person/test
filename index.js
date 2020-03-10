@@ -5,7 +5,6 @@ function insertNum(num) {
     textview.value = textview.value + num;
 }
 function insertOp(op) {
-    
     textview.value += op;
 }
 
@@ -17,5 +16,5 @@ function equal() {
 }
 
 function clean() {
-    textview.value = " ";
+    textview.value = "";
 }
