@@ -1,8 +1,14 @@
 
 var textview = document.forms["myForm"]["textview"]
+var lastItemDec = false;
 
-function insertNum(num) {
-    textview.value = textview.value + num;
+function insertVal(val) {
+    if (val == "." && !lastItemDec) {
+        textview.value = textview.value + val;
+        lastItemDec = true;
+        return;
+    }
+    textview.value = textview.value + val;
 }
 function insertOp(op) {
     textview.value += op;

@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <form name="myForm" id="display">
+            <input type="text" class=display name="textview" disabled>
+        </form>
+        <div id="buttons">
+            <div class="button-row">
+                <div class="keys" value="7" onclick="insertVal(7)">7</div>
+                <div class="keys" value="8" onclick="insertVal(8)">8</div>
+                <div class="keys" value="9" onclick="insertVal(9)">9</div>
+                <div class="keys" value="*" onclick="insertOp('*')">*</div>
+            
+                <div class="keys" value="4" onclick="insertVal(4)">4</div>
+                <div class="keys" value="5" onclick="insertVal(5)">5</div>
+                <div class="keys" value="6" onclick="insertVal(6)">6</div>
+                <div class="keys" value="-" onclick="insertOp('-')">-</div>
+            
+                <div class="keys" value="1" onclick="insertVal(1)">1</div>
+                <div class="keys" value="2" onclick="insertVal(2)">2</div>
+                <div class="keys" value="3" onclick="insertVal(3)">3</div>
+                <div class="keys" value="+" onclick="insertOp('+')">+</div>
+            
+                <div class="keys" value="0" onclick="insertVal(0)">0</div>
+                <div class="keys" value="." onclick="insertVal('.')">.</div>
+                <div class="keys" value="/" onclick="insertOp('/')">/</div>
+                <div class="keys equal" value="=" onclick="equal()">=</div>
+            
+                <div class="keys clear" value="1" onclick="clean()">C</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+<!--
+<div class="flexBoxContainer">
+    <div class="calculator">
+        <input />
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <div class="keys"></div>
+        <section id="anomaly-keys-wrapper">
+            <section>
+                <div class="keys"></div>
+                <div class="keys"></div>
+                <div class="keys"></div>
+                <div class="keys long"></div>
+                <div class="keys"></div>
+            </section>
+            <section>
+                <div class="keys tall"></div>
+            </section>
+        </section>
+    </div>
+</div>
+-->
