@@ -30,44 +30,6 @@ function insertVal(val) {
     }
 }
 
-
-/*
-/*["123.45", "/","3245.456"]
-function insertDec() {
- /*
-    if last item is a dec, or operator don't add
-    if the index of last dec is greater than index of last op don't add
-    if no op in string and there is a dec don't add
-
-    if (textview.value == "") return;
-    
-    if ("/*+.".includes(textview.value[textview.value.length - 1])) return;
-    
-    if (textview.value.lastIndexOf(".") > textview.value.lastIndexOf("/") || textview.value.lastIndexOf(".") > textview.value.lastIndexOf("*") || textview.value.lastIndexOf(".") > textview.value.lastIndexOf("+") || textview.value.lastIndexOf(".") > textview.value.lastIndexOf("-")) return;
-    
-    /*if (textview.value.includes())
-    
-    if (textview.value)
-    
-    if (textview.value.includes(".")){
-        if 
-    }
-
-}
-
-function insertOp(val) {
-    let text;
-    if ("/*+".includes(textview.value[textview.value.length - 1])) return;
-    else {
-        text = textview.value;
-        valueArr.push(text);
-        
-        valueArr.push(val);
-        textview.value = textview.value + val;
-    }
-}
-*/
-
 function equal() {
     valueArr.push(textview.value)
     var exp = valueArr.join("");
