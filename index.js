@@ -25,7 +25,7 @@ function insertVal(val) {
         textview.value = textview.value + val;
     }
     if (val == "."){
-        if (textview.value.includes(".")) return;
+        if (textview.value.includes(".")) return
         else textview.value = textview.value + "."
     }
 }

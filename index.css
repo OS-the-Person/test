@@ -39,12 +39,17 @@
 }
 
 .keys {
+    cursor: pointer;
     margin: 5px;
     width: 10%;
     height: 20px;
     padding: 20px;
     background-color: #fff;
     text-align: center
+}
+
+.keys:active {
+    background-color: #ccc;
 }
 
 .clear{
