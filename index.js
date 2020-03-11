@@ -4,7 +4,7 @@ var lastItemDec = false;
 var valueArr = [];
 
 function insertVal(val) {
-    if ("\+-*".includes(val)){  //if value is an operator
+    if ("/+-*".includes(val)){  //if value is an operator
         if (textview.value == "") return;
         else {
             let text;
